@@ -1,0 +1,42 @@
+
+#navbarid {
+    padding: 20px; /* Adjust the padding as needed */
+    margin: 0; /* Remove default margin */  
+  }
+  .masthead
+  {
+    background-size: cover;
+    min-height: 60vh;
+    position:relative;
+    color:rgb(107, 5, 42);
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+  .nav-item
+  {
+   font-weight: 500; 
+   color:rgb(231, 239, 239);
+  }
+  
+  h1{
+    font-size: 6rem;
+  }
+  .color-overlay
+  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+  }
+  @media (max-width:768px)
+  {
+    .masthead{
+        min-height: 30vh;
+  
+    }
+    h1
+    {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+  } 
